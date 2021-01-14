@@ -17,11 +17,31 @@ let Button = () => {
 
 let Colors = () => {
     return <div className="flex flex-row h-screen">
-        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-4 border-black">1</div>
-        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-2 border-black">2</div>
-        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-2 border-black">3</div>
-        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-2 border-black">4</div>
-        <div className="flex-auto border-t-4 border-r-4 border-b-4 border-l-2 border-black">5</div>
+        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-4 border-black">
+        <button className="bg-black hover:bg-gray-500 text-white font-bold m-1 py-1 px-3 rounded">
+            Lock
+            </button>
+        </div>
+        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-2 border-black">
+        <button className="bg-black hover:bg-gray-500 text-white font-bold m-1 py-1 px-3 rounded">
+            Lock
+            </button>
+        </div>
+        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-2 border-black">
+        <button className="bg-black hover:bg-gray-500 text-white font-bold m-1 py-1 px-3 rounded">
+            Lock
+            </button>
+        </div>
+        <div className="flex-auto border-t-4 border-r-2 border-b-4 border-l-2 border-black">
+        <button className="bg-black hover:bg-gray-500 text-white font-bold m-1 py-1 px-3 rounded">
+            Lock
+            </button>
+        </div>
+        <div className="flex-auto border-t-4 border-r-4 border-b-4 border-l-2 border-black">
+        <button className="bg-black hover:bg-gray-500 text-white font-bold m-1 py-1 px-3 rounded">
+            Lock
+            </button>
+        </div>
     </div>
 };
 
